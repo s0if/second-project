@@ -10,12 +10,14 @@
 .container {
     width: calc(100% - 10.1857rem);
     margin: auto;
+    gap: 8rem;
 }
 
 a {
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
+    color: #262626;
 }
 
 .top {
@@ -67,12 +69,92 @@ header .last {
     flex-grow: 1;
 }
 
+header .last span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 header .last span:last-child {
     border-radius: 0.5rem;
     padding: 0.875rem 2.125rem;
     background-color: #FF9500;
 }
 
+header .last span:last-child a {
+    color: #FFF;
+}
+
 header .list {
     display: none;
+}
+
+.hero {
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Be Vietnam Pro;
+    font-weight: 600;
+    gap: 1rem;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    background-color: #FCFCFD;
+}
+
+.hero .head img {
+    background-color: #FFF4E5;
+    height: 2.5rem;
+    padding: 0.45rem;
+    border-radius: 0.5rem;
+}
+
+.Unlock {
+    color: #FF9500;
+}
+
+.hero .mid {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Be Vietnam Pro;
+    font-weight: 500;
+    gap: 0.625rem;
+    padding: 1rem 1.875rem;
+    text-align: center;
+}
+
+.hero .mid span:first-of-type {
+    font-size: 2rem;
+}
+
+.hero .mid span:last-of-type {
+    font-size: 1.2rem;
+
+}
+
+.hero .fot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 1rem;
+    padding-top: 1.75rem;
+}
+
+.hero .fot span:first-of-type {
+    padding: 1rem 1.5rem;
+    background-color: #FF9500;
+    border-radius: 0.5rem;
+}
+
+.hero .fot span:first-of-type a {
+    color: #FFF;
 }

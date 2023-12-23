@@ -13,6 +13,10 @@
     gap: 8rem;
 }
 
+body {
+    background-color: #F7F7F8;
+}
+
 a {
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -96,9 +100,11 @@ header .list {
 }
 
 .hero .head {
+    width: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     font-family: Be Vietnam Pro;
     font-weight: 600;
     gap: 1rem;
@@ -157,4 +163,18 @@ header .list {
 
 .hero .fot span:first-of-type a {
     color: #FFF;
+}
+
+.logo .logos {
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #F1F1F3;
+    background: #FCFCFD;
+    gap: 1.857rem;
+    width: fit-content;
+}
+
+.logo img  {
+    padding: 1.857rem 2.5rem;
 }

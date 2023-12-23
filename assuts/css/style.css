@@ -5,12 +5,12 @@
     margin: 0;
     box-sizing: border-box;
     text-transform: capitalize;
+    font-family: Be Vietnam Pro;
 }
 
 .container {
     width: calc(100% - 10.1857rem);
     margin: auto;
-    gap: 8rem;
 }
 
 body {
@@ -19,7 +19,6 @@ body {
 
 a {
     text-decoration: none;
-    font-family: 'Be Vietnam Pro', sans-serif;
     font-size: 1rem;
     color: #262626;
 }
@@ -29,7 +28,6 @@ header {
     top: 0;
     z-index: 9;
 }
-
 
 .top {
     padding: 0.5rem 1rem;
@@ -111,7 +109,6 @@ header .list {
     justify-content: center;
     align-items: center;
     margin: auto;
-    font-family: Be Vietnam Pro;
     font-weight: 600;
     gap: 1rem;
     padding: 0.5rem 2rem;
@@ -136,7 +133,6 @@ header .list {
     display: flex;
     align-items: center;
     flex-direction: column;
-    font-family: Be Vietnam Pro;
     font-weight: 500;
     gap: 0.625rem;
     padding: 1rem 1.875rem;
@@ -209,4 +205,82 @@ header .list {
     background-color: rgba(255, 255, 255, 0.20);
     padding: 0.857rem;
     text-align: center;
+}
+
+.benfits {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.benfits .title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.benfits .first h2 {
+    font-size: 3rem;
+}
+
+.benfits .title .last {
+    display: flex;
+    justify-content: space-between;
+    gap: 18.75rem;
+    align-items: center;
+}
+
+.benfits .last span {
+    color: #59595A;
+    width: fit-content;
+}
+
+.benfits .last a {
+    display: flex;
+    width: 9.3rem;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+}
+
+.benfits .divs {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 5rem;
+}
+
+.benfits .divs .item {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 1.25rem) / 3);
+    padding: 3.25rem;
+    border-radius: 0.75rem;
+    background: #FFF;
+    gap: 3.125rem;
+}
+.benfits .divs .item span:first-of-type{
+    display: flex;
+    align-self: flex-end;
+    color: #262626;
+    font-size: 5rem;
+}
+.benfits .divs .item .text span:first-of-type{
+    font-size: 1.5rem;
+    color: #333;
+}
+.benfits .divs .item .text span:last-of-type{
+    color: #4C4C4D;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.benfits .divs img {
+    width: 2.125rem;
+    height: 2.125rem;
+    display: flex;
+    align-self: flex-end;
+    box-sizing: content-box;
+    padding: 1.25rem;
 }

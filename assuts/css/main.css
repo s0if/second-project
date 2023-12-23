@@ -61,7 +61,23 @@
 
     .caver .photo {
         width: 22.357rem;
-        height: 46.25rem;
         margin: auto;
+    }
+
+    .benfits .title {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .benfits .title .last {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-start;
+    }
+
+    .benfits .divs .item {
+        margin: auto;
+        width: calc((100% - 1.25rem));
     }
 }

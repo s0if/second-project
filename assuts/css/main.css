@@ -48,13 +48,20 @@
     .hero .fot a {
         font-size: 0.8rem;
     }
-    .logo .none{
+
+    .logo .none {
         display: none;
     }
-    .logo img{
+
+    .logo img {
         display: flex;
-       padding: 1.25rem 0.6rem;
-       width: 5rem;
+        padding: 1.25rem 0.6rem;
+        width: 5rem;
     }
 
+    .caver .photo {
+        width: 22.357rem;
+        height: 46.25rem;
+        margin: auto;
+    }
 }

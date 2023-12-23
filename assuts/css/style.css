@@ -24,12 +24,18 @@ a {
     color: #262626;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+}
+
+
 .top {
     padding: 0.5rem 1rem;
     display: flex;
-    position: sticky;
-    top: 0;
     gap: 3rem;
+    background-color: #FCFCFD;
 }
 
 .top .first {
@@ -168,6 +174,7 @@ header .list {
 .logo .logos {
     display: flex;
     justify-content: center;
+    margin: auto;
     border-radius: 12px;
     border: 1px solid #F1F1F3;
     background: #FCFCFD;
@@ -175,6 +182,31 @@ header .list {
     width: fit-content;
 }
 
-.logo img  {
+.logo img {
     padding: 1.857rem 2.5rem;
+}
+
+.caver .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem 0rem;
+    border: 1rem solid #F7F7F8;
+    position: relative;
+    margin-top: 1rem;
+}
+
+.caver .content .photo {
+    border-radius: 0.75rem;
+    filter: brightness(50%);
+}
+
+.caver .icon {
+    position: absolute;
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.20);
+    padding: 0.857rem;
+    text-align: center;
 }

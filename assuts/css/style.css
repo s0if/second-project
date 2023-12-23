@@ -287,3 +287,98 @@ header .list {
     box-sizing: content-box;
     padding: 1.25rem;
 }
+
+.courses .title {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.courses .first h2 {
+    font-size: 3rem;
+}
+
+.courses .title .last {
+    display: flex;
+    justify-content: space-between;
+    gap: 18.75rem;
+    align-items: center;
+}
+
+.courses .last span {
+    color: #59595A;
+    width: fit-content;
+}
+
+.courses .last a {
+    display: flex;
+    padding: 1rem 1.5rem;
+    width: 9.3rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+}
+
+.courses .course {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.875em;
+}
+
+.courses .course .image {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 1.875em) / 2);
+    padding: 3.125rem;
+    border-radius: 0.75rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #FFF;
+    gap: 1.875rem;
+    margin-top: 5rem;
+}
+
+.courses .course .image img {
+    width: 100%;
+}
+
+.courses .course .image .one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.courses .course .image .one span {
+    font-size: 1rem;
+    color: #4C4C4D;
+    padding: 0.625rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #FFF;
+}
+
+.courses .course .image .one .one1 {
+    display: flex;
+}
+
+.courses .course .image .two {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem
+}
+
+.courses .course .image .two span:first-of-type {
+    font-size: 1.5rem;
+    color: #262626;
+}
+
+.courses .course .image .two span:last-of-type {
+    color: #4C4C4D;
+}
+
+.courses .course .image .three {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    border: 0.1 solid #F1F1F3;
+    background: #F7F7F8;
+}

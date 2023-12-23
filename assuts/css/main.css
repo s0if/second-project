@@ -60,7 +60,7 @@
     }
 
     .caver .photo {
-        width: 22.357rem;
+        width: 18rem;
         margin: auto;
     }
 
@@ -76,8 +76,35 @@
         align-items: flex-start;
     }
 
+    .benfits .first h2 {
+        font-size: 1.75rem;
+    }
+
+    .benfits .last span {
+        font-size: 0.875rem;
+    }
+
+    .benfits .last a {
+        font-size: 0.875rem;
+        padding: 0.875rem 1.25rem;
+        width: fit-content;
+    }
+
     .benfits .divs .item {
         margin: auto;
-        width: calc((100% - 1.25rem));
+        width: calc(100% - 1rem);
+        gap: 1rem;
+    }
+
+    .benfits .divs .item span:first-of-type {
+        font-size: 3.125rem;
+    }
+
+    .benfits .divs .item .text span:first-of-type {
+        font-size: 1.25rem;
+    }
+
+    .benfits .divs .item .text span:last-of-type {
+        font-size: 0.857rem;
     }
 }

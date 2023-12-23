@@ -260,17 +260,20 @@ header .list {
     background: #FFF;
     gap: 3.125rem;
 }
-.benfits .divs .item span:first-of-type{
+
+.benfits .divs .item span:first-of-type {
     display: flex;
     align-self: flex-end;
     color: #262626;
     font-size: 5rem;
 }
-.benfits .divs .item .text span:first-of-type{
+
+.benfits .divs .item .text span:first-of-type {
     font-size: 1.5rem;
     color: #333;
 }
-.benfits .divs .item .text span:last-of-type{
+
+.benfits .divs .item .text span:last-of-type {
     color: #4C4C4D;
     font-size: 1.125rem;
     font-weight: 400;

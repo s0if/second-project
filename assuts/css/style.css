@@ -23,6 +23,10 @@ a {
     color: #262626;
 }
 
+li {
+    list-style: none;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -51,7 +55,6 @@ header {
 }
 
 .top li {
-    list-style: none;
     padding: 1.6rem;
     text-align: center;
     width: fit-content;
@@ -520,4 +523,98 @@ header .list {
     background-color: #FF9500;
     padding: 1.25rem 1.5rem;
     color: #FFF;
+}
+
+footer {
+    background-color: #FFF;
+    margin-top: 7rem;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    padding: 6.25rem 10.125rem 1.875rem;
+    gap: 6.25rem;
+}
+
+footer .had {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .had .first {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+footer .had nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer .had .first ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+footer .had .first li {
+    display: flex;
+    gap: 0.375rem;
+    color: #262626;
+}
+
+footer .had .first .logo {
+    padding: 0.48rem;
+    border-radius: 0.5rem;
+    background-color: #FF9500;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+footer .had .last {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.857rem;
+    width: calc(100% / 2);
+}
+
+footer .had .last nav {
+    gap: 0.875rem;
+}
+
+footer .had .last nav h4 {
+    font-size: 1.25rem;
+    color: #262626;
+}
+
+footer .had .last ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    color: #59595A;
+}
+
+footer .had .last .final ul {
+    flex-direction: row;
+    gap: 0.875rem;
+    align-content: center;
+}
+
+footer .had .last .final img {
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #F7F7F8;
+    padding: 0.875rem;
+}
+
+footer .fot {
+    display: flex;
+    justify-content: center;
+    color: #656567;
 }

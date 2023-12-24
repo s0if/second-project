@@ -90,9 +90,11 @@
         padding: 0.875rem 1.25rem;
         width: fit-content;
     }
-    .benfits{
+
+    .benfits {
         margin: 0;
     }
+
     .benfits .divs {
         margin-top: 2.5rem;
     }
@@ -114,10 +116,11 @@
     .benfits .divs .item .text span:last-of-type {
         font-size: 0.857rem;
     }
+
     .courses .course .image {
         display: flex;
         flex-direction: column;
-        width: 100% ;
+        width: 100%;
         padding: 1.5rem;
         gap: 1.25rem;
     }
@@ -137,26 +140,72 @@
     .courses .course .image .two span:last-of-type {
         font-size: 0.8rem;
     }
-    .testimonials .testimonial{
+
+    .testimonials .testimonial {
         display: flex;
         flex-direction: column;
     }
-    .testimonials .testimonial .employee{
+
+    .testimonials .testimonial .employee {
         display: flex;
-        width: 100%; 
+        width: 100%;
         padding: 1.5rem;
         gap: 1.25rem;
     }
-    .employee .information{
+
+    .employee .information {
         display: flex;
         justify-content: flex-start;
     }
-    .employee .information span{
+
+    .employee .information span {
         font-size: 0.7rem;
         padding: 0.8125rem;
     }
-    .employee .information img{
+
+    .employee .information img {
         width: 3.125rem;
         height: 3.125rem;
+    }
+
+    .pricing .title .last span:last-of-type {
+        justify-content: center;
+    }
+    .pricing .pric {
+        padding: 1.25rem;
+    }
+    .pricing .pric .contant {
+        width: 100%;
+        padding: 1.875em 1.25rem;
+        gap: 1.875rem;
+    }
+    .pricing .pric .contant .one{
+        padding: 0.5rem 1.375rem;
+        font-size: 1rem;
+    }
+    .pricing .pric .two{
+        font-size: 3.125rem;
+    }
+    .pricing .pric .contant .list{
+        gap: 1.25rem;
+        padding: 1.25rem;
+    }
+    .pricing .pric .contant .list .head{
+        font-size: 1rem;
+    }
+    .pricing .pric .contant .list .lc img{
+        padding: 0.25rem;
+        height: 2rem;
+    }
+    .pricing .pric .contant .list .lc .active{
+        padding: 0.75rem;
+        gap:0.5rem
+    }
+    .pricing .pric .contant .list .lc .inactive{
+        padding: 0.75rem;
+        gap:0.5rem
+    }
+    .pricing .pric .contant .last {
+        border-radius: 0.5rem;
     }
 }

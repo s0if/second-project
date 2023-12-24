@@ -296,7 +296,7 @@ header .list {
 .courses .course .image {
     display: flex;
     flex-direction: column;
-    width: calc(100%  / 2);
+    width: calc(100% / 2);
     padding: 3.125rem;
     border-radius: 0.75rem;
     border: 0.1rem solid #F1F1F3;
@@ -360,7 +360,7 @@ header .list {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: calc(100%  / 2);
+    width: calc(100% / 2);
     padding: 3.125rem;
     border-radius: 0.75rem;
     border: 0.1rem solid #F1F1F3;
@@ -394,4 +394,130 @@ header .list {
 
 .employee .information .one1 span {
     height: fit-content;
+}
+
+.pricing .title .last span:last-of-type {
+    display: flex;
+    border-radius: 0.5rem;
+    background: #FFF;
+    padding: 0.75rem;
+    margin: auto;
+}
+
+.pricing .title .last span a {
+    border: 0.1rem solid #FFF;
+    width: fit-content;
+    padding: 0.857rem 1.875rem;
+}
+
+.pricing .title .last span a:first-of-type {
+    background-color: #FF9500;
+}
+
+.pricing .pric {
+    display: flex;
+    gap: 1.875rem;
+    flex-wrap: wrap;
+    padding: 5rem;
+    border-radius: 0.75rem;
+    background: #FFF;
+
+}
+
+.pricing .pric .contant {
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 1.875rem) / 2);
+    padding: 3.125rem 1.875rem;
+    border-radius: 0.75rem;
+    border: 0.1rem solid #F1F1F3;
+    text-align: center;
+    gap: 3.125rem;
+}
+
+.pricing .pric .contant .one {
+    background-color: rebeccapurple;
+    padding: 0.75rem 1.375rem;
+    border-radius: 0.375rem;
+    border: 0.1rem solid #FFEACC;
+    background-color: #FFF9F0;
+    font-size: 1.375rem;
+    font-weight: 500;
+}
+
+.pricing .pric .contant .two {
+    font-size: 5rem;
+    font-weight: 600;
+    color: #262626;
+}
+
+.pricing .pric .contant .two::after {
+    content: "/month";
+    font-size: 1.25rem;
+    color: #4C4C4D;
+    font-weight: 500;
+}
+
+.pricing .pric .contant .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.875rem;
+    padding: 2.5rem;
+    border-radius: 0.875rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #FFF;
+}
+
+.pricing .pric .contant .list .head {
+    color: #262626;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.pricing .pric .contant .list .lc {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    color: #4C4C4D;
+    padding: 0.3rem;
+    font-size: 0.9rem;
+}
+
+.pricing .pric .contant .list .lc img {
+    padding: 0.375rem;
+    border-radius: 0.375rem;
+}
+
+.pricing .pric .contant .list .lc .active {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    padding: 0.875rem;
+}
+
+.pricing .pric .contant .list .lc .active img {
+    background-color: #FFF4E5;
+}
+
+.pricing .pric .contant .list .lc .inactive {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    padding: 0.875rem;
+}
+
+.pricing .pric .contant .list .lc .inactive img {
+    border: 0.1rem solid #F1F1F3;
+}
+
+.pricing .pric .contant .last {
+    border-radius: 0.5rem;
+    background-color: #FF9500;
+    padding: 1.25rem 1.5rem;
+    color: #FFF;
 }

@@ -69,7 +69,7 @@ header {
     background-color: #F1F1F3
 }
 
-header .last {
+header .lasts {
     display: flex;
     gap: 1.9rem;
     align-items: center;
@@ -77,19 +77,19 @@ header .last {
     flex-grow: 1;
 }
 
-header .last span {
+header .lasts span {
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-header .last span:last-child {
+header .lasts span:last-child {
     border-radius: 0.5rem;
     padding: 0.875rem 2.125rem;
     background-color: #FF9500;
 }
 
-header .last span:last-child a {
+header .lasts span:last-child a {
     color: #FFF;
 }
 
@@ -212,32 +212,32 @@ header .list {
     margin-top: 4rem;
 }
 
-.benfits .title {
+.title {
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    margin: 5rem 0;
 }
 
-.benfits .first h2 {
+.first h2 {
     font-size: 3rem;
 }
 
-.benfits .title .last {
+.title .last {
     display: flex;
     justify-content: space-between;
     gap: 18.75rem;
     align-items: center;
 }
 
-.benfits .last span {
+.last span {
     color: #59595A;
     width: fit-content;
 }
 
-.benfits .last a {
+.last a {
     display: flex;
-    width: 9.3rem;
     padding: 1rem 1.5rem;
+    width: 9.3rem;
     font-size: 1rem;
     border-radius: 0.5rem;
     border: 0.1rem solid #F1F1F3;
@@ -288,53 +288,20 @@ header .list {
     padding: 1.25rem;
 }
 
-.courses .title {
-    display: flex;
-    flex-direction: column;
-    margin-top: 5rem;
-}
-
-.courses .first h2 {
-    font-size: 3rem;
-}
-
-.courses .title .last {
-    display: flex;
-    justify-content: space-between;
-    gap: 18.75rem;
-    align-items: center;
-}
-
-.courses .last span {
-    color: #59595A;
-    width: fit-content;
-}
-
-.courses .last a {
-    display: flex;
-    padding: 1rem 1.5rem;
-    width: 9.3rem;
-    font-size: 1rem;
-    border-radius: 0.5rem;
-    border: 0.1rem solid #F1F1F3;
-}
-
 .courses .course {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.875em;
 }
 
 .courses .course .image {
     display: flex;
     flex-direction: column;
-    width: calc((100% - 1.875em) / 2);
+    width: calc(100%  / 2);
     padding: 3.125rem;
     border-radius: 0.75rem;
     border: 0.1rem solid #F1F1F3;
     background: #FFF;
     gap: 1.875rem;
-    margin-top: 5rem;
 }
 
 .courses .course .image img {
@@ -344,6 +311,7 @@ header .list {
 .courses .course .image .one {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .courses .course .image .one span {
@@ -381,4 +349,49 @@ header .list {
     border-radius: 0.5rem;
     border: 0.1 solid #F1F1F3;
     background: #F7F7F8;
+}
+
+.testimonials .testimonial {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.testimonials .testimonial .employee {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: calc(100%  / 2);
+    padding: 3.125rem;
+    border-radius: 0.75rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #FFF;
+    gap: 1.875rem;
+}
+
+.employee span {
+    color: #4C4C4D;
+    font-weight: 400;
+}
+
+.employee .information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.employee .information span {
+    padding: 0.625rem 1rem;
+    border-radius: 0.5rem;
+    border: 0.1rem solid #F1F1F3;
+    background: #FFF;
+}
+
+.employee .information .one1 {
+    display: flex;
+    gap: 0.9375rem;
+    align-items: center;
+}
+
+.employee .information .one1 span {
+    height: fit-content;
 }

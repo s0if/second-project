@@ -7,7 +7,7 @@
         display: none;
     }
 
-    .last span {
+    .lasts span {
         width: 4.8rem;
     }
 
@@ -64,30 +64,34 @@
         margin: auto;
     }
 
-    .benfits .title {
+    .title {
         display: flex;
         flex-direction: column;
+        margin: 2.5rem 0;
     }
 
-    .benfits .title .last {
+    .title .last {
         display: flex;
         flex-direction: column;
         gap: 1rem;
         align-items: flex-start;
     }
 
-    .benfits .first h2 {
+    .first h2 {
         font-size: 1.75rem;
     }
 
-    .benfits .last span {
+    .last span {
         font-size: 0.875rem;
     }
 
-    .benfits .last a {
+    .last a {
         font-size: 0.875rem;
         padding: 0.875rem 1.25rem;
         width: fit-content;
+    }
+    .benfits .divs {
+        margin-top: 2.5rem;
     }
 
     .benfits .divs .item {
@@ -107,54 +111,49 @@
     .benfits .divs .item .text span:last-of-type {
         font-size: 0.857rem;
     }
-
-    .courses .title {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .courses .title .last {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-        align-items: flex-start;
-    }
-
-    .courses .first h2 {
-        font-size: 1.75rem;
-    }
-
-    .courses .last span {
-        font-size: 0.875rem;
-    }
-
-    .courses .last a {
-        font-size: 0.875rem;
-        padding: 0.875rem 1.25rem;
-        width: fit-content;
-    }
-    .courses .course {
-        gap: 1.25em;
-    }
     .courses .course .image {
         display: flex;
         flex-direction: column;
-        width: calc(100% - 1.25em);
+        width: 100% ;
         padding: 1.5rem;
         gap: 1.25rem;
-        margin-top: 2.5rem;
-        padding: 1.5rem;
     }
+
     .courses .course .image .one span {
         font-size: 0.8rem;
     }
-    .courses .course .image .one .one2{
+
+    .courses .course .image .one .one2 {
         display: none;
     }
-    .courses .course .image .two span:first-of-type{
+
+    .courses .course .image .two span:first-of-type {
         font-size: 1rem;
     }
-    .courses .course .image .two span:last-of-type{
+
+    .courses .course .image .two span:last-of-type {
         font-size: 0.8rem;
+    }
+    .testimonials .testimonial{
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials .testimonial .employee{
+        display: flex;
+        width: 100%; 
+        padding: 1.5rem;
+        gap: 1.25rem;
+    }
+    .employee .information{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .employee .information span{
+        font-size: 0.7rem;
+        padding: 0.8125rem;
+    }
+    .employee .information img{
+        width: 3.125rem;
+        height: 3.125rem;
     }
 }

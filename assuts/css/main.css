@@ -223,9 +223,11 @@
         padding: 3.125rem 1.25rem 1.5rem;
         gap: 3rem;
     }
-footer{
-    margin-top: 2rem;
-}
+
+    footer {
+        margin-top: 2rem;
+    }
+
     footer .had {
         flex-direction: column;
         gap: 1.5rem;
@@ -242,8 +244,9 @@ footer{
     footer .had .first .logo {
         padding: 0.35625rem;
     }
-    footer .had .last{
-        width: 100% ;
+
+    footer .had .last {
+        width: 100%;
     }
 
     footer .had .last nav h4 {

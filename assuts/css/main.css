@@ -21,6 +21,10 @@
     header .list {
         display: inline;
     }
+
+    .logo .none {
+        display: none;
+    }
 }
 
 @media screen and (max-width:42rem) {
@@ -47,10 +51,6 @@
 
     .hero .fot a {
         font-size: 0.8rem;
-    }
-
-    .logo .none {
-        display: none;
     }
 
     .logo img {

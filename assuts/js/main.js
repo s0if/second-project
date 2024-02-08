@@ -7,3 +7,6 @@ window.onscroll = () => {
     else
         navbar_top.classList.remove('style-top');
 }
+setTimeout(() => {
+    document.querySelector(".overlay").classList.add('d_none');
+}, 500);
